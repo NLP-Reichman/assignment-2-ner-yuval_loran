@@ -1,1 +1,36 @@
-{}
+{
+  "test_link": {
+    "link": "https://drive.google.com/file/d/1z1cbVR2Q3dIIyAFtvK4kkOJ1xES-fm75/view?usp=sharing"
+  },
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_vocab": {
+    "length": 7163,
+    "tag2id_length": 7,
+    "Spongebob": 1
+  },
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
+  "test_NERNet": {
+    "f1": 0.9088057129469858,
+    "f1_wo_o": 0.7680062563500273
+  },
+  "test_glove": {
+    "f1": 0.8966563933347775,
+    "f1_wo_o": 0.8253174588119709
+  }
+}
